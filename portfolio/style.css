@@ -53,7 +53,7 @@ body
     text-shadow:2px  2px 10px #777 ,-2px  2px 10px #777 ,2px -2px 10px #777 ,-2px -2px 10px #777;
 }
 
-@media screen and (min-width: 414px)
+@media screen and (min-width: 450px)
 {
     h1
     {
@@ -103,7 +103,7 @@ body
 }
 
 
-@media screen and (max-width: 414px) 
+@media screen and (max-width: 450px) 
 {
     h1
     {
