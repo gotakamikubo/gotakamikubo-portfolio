@@ -74,7 +74,7 @@ body
         background: linear-gradient(-45deg, #ffd75b 0%, #fff5a0 30%, #fffabe 40%, #ffffdb 50%, #fff5a0 70%, #fdd456 100%);
     }
 
-    .profile
+    .portfolio
     {
         margin: 0.5rem 0px;
         max-width: 560px;
@@ -86,13 +86,19 @@ body
         background: linear-gradient(-45deg, #ffd75b 0%, #fff5a0 30%, #fffabe 40%, #ffffdb 50%, #fff5a0 70%, #fdd456 100%);
     }
 
-    .profile p
+    .portfolio p
     {
         font-size: calc(0.8rem + .5vw);
         margin: 0px;
     }
 
-    .profile img
+    .portfolio a
+    {
+        font-size: calc(0.8rem + .5vw);
+        margin: 0px;
+    }
+
+    .portfolio img
     {
         display: block;
         width: 100%;
