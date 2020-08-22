@@ -88,7 +88,6 @@ h1
 
 #appealingPoint
 {
-    z-index: 3;
     position: fixed;
     visibility:hidden;
     background-color: darkslateblue;
@@ -138,6 +137,15 @@ h1
     }
 }
 
+@keyframes botton
+{
+    100%
+    {
+        filter: drop-shadow(5px 5px 10px #1A237E);
+        border-radius: 10%; 
+    }   
+}
+
 @media screen and (min-width: 450px)
 {
     
@@ -169,8 +177,9 @@ h1
     
     #goToPortfolio img:hover
     {
-        filter: drop-shadow(5px 5px 10px #1A237E);
-        border-radius: 10%;   
+        animation-name: botton;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards; 
     }
 
     #goToPortfolio p
