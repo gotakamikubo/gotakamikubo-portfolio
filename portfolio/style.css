@@ -1,3 +1,20 @@
+h2
+{
+    display: none;
+}
+
+.portfolio
+{
+    margin: 0.5rem 0px;
+    max-width: 560px;
+    min-width: 304px;
+    text-align: center;
+    border-right: 4px solid #cea82c;
+    border-bottom: 10px solid #987c1e;
+    border-left: 4px solid #ffed8b;
+    background: linear-gradient(-45deg, #ffd75b 0%, #fff5a0 30%, #fffabe 40%, #ffffdb 50%, #fff5a0 70%, #fdd456 100%);
+}
+
 #backToHomeArea
 {
     max-width: 400px;
@@ -24,59 +41,26 @@
     text-shadow:2px  2px 10px #777 ,-2px  2px 10px #777 ,2px -2px 10px #777 ,-2px -2px 10px #777;
 }
 
-@media screen and (min-width: 450px)
+
+.portfolio p
 {
-    h1
-    {
-        font-size: calc(0.8rem + .5vw);
-        text-align: center;
-    }
+    font-size: calc(0.8rem + .5vw);
+    margin: 0px;
+}
 
-    h2
-    {
-        display: none;
-    }
+.portfolio a
+{
+    font-size: calc(0.8rem + .5vw);
+    margin: 0px;
+}
 
-    #heading
-    {
-        border-right: 4px solid #cea82c;
-        border-bottom: 10px solid #987c1e;
-        border-left: 4px solid #ffed8b;
-        background: linear-gradient(-45deg, #ffd75b 0%, #fff5a0 30%, #fffabe 40%, #ffffdb 50%, #fff5a0 70%, #fdd456 100%);
-    }
-
-    .portfolio
-    {
-        margin: 0.5rem 0px;
-        max-width: 560px;
-        min-width: 304px;
-        text-align: center;
-        border-right: 4px solid #cea82c;
-        border-bottom: 10px solid #987c1e;
-        border-left: 4px solid #ffed8b;
-        background: linear-gradient(-45deg, #ffd75b 0%, #fff5a0 30%, #fffabe 40%, #ffffdb 50%, #fff5a0 70%, #fdd456 100%);
-    }
-
-    .portfolio p
-    {
-        font-size: calc(0.8rem + .5vw);
-        margin: 0px;
-    }
-
-    .portfolio a
-    {
-        font-size: calc(0.8rem + .5vw);
-        margin: 0px;
-    }
-
-    .portfolio img
-    {
-        display: block;
-        width: 100%;
-        max-width: 512px;
-        min-width: 128px;
-        margin: 0px auto;
-    }
+.portfolio img
+{
+    display: block;
+    width: 100%;
+    max-width: 512px;
+    min-width: 128px;
+    margin: 0px auto;
 }
 
 

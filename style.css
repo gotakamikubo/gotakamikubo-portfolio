@@ -1,15 +1,53 @@
-h1
+#profile p
 {
     font-size: calc(0.8rem + .5vw);
-    text-align: center;
+    margin: 0px;
 }
-
-#heading
+    
+#goToPortfolio
 {
+    margin: 0.5rem 0px;
+    max-width: 560px;
+    min-width: 304px;
+    text-align: center;
     border-right: 4px solid #cea82c;
     border-bottom: 10px solid #987c1e;
     border-left: 4px solid #ffed8b;
     background: linear-gradient(-45deg, #ffd75b 0%, #fff5a0 30%, #fffabe 40%, #ffffdb 50%, #fff5a0 70%, #fdd456 100%);
+}
+    
+#goToPortfolio img
+{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 1rem auto;
+}
+    
+#goToPortfolio img:hover
+{
+    animation-name: botton;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards; 
+}
+
+#goToPortfolio p
+{
+    font-size: calc(0.8rem + .5vw);
+    margin: 0px;
+}
+
+.portfolio
+{
+    display: none;
+}
+
+#rotateArea p
+{
+    display: flex;
+    color: white;
+    font-size: calc(0.8rem + .5vw);
+    margin: 0px;   
 }
 
 #profile
@@ -116,62 +154,6 @@ h1
     }   
 }
 
-@media screen and (min-width: 450px)
-{
-    
-    #profile p
-    {
-        font-size: calc(0.8rem + .5vw);
-        margin: 0px;
-    }
-    
-    #goToPortfolio
-    {
-        margin: 0.5rem 0px;
-        max-width: 560px;
-        min-width: 304px;
-        text-align: center;
-        border-right: 4px solid #cea82c;
-        border-bottom: 10px solid #987c1e;
-        border-left: 4px solid #ffed8b;
-        background: linear-gradient(-45deg, #ffd75b 0%, #fff5a0 30%, #fffabe 40%, #ffffdb 50%, #fff5a0 70%, #fdd456 100%);
-    }
-    
-    #goToPortfolio img
-    {
-        display: block;
-        width: 70%;
-        height: auto;
-        margin: 1rem auto;
-    }
-    
-    #goToPortfolio img:hover
-    {
-        animation-name: botton;
-        animation-duration: 0.5s;
-        animation-fill-mode: forwards; 
-    }
-
-    #goToPortfolio p
-    {
-        font-size: calc(0.8rem + .5vw);
-        margin: 0px;
-    }
-
-    .portfolio
-    {
-        display: none;
-    }
-
-    #rotateArea p
-    {
-        display: flex;
-        color: white;
-        font-size: calc(0.8rem + .5vw);
-        margin: 0px;   
-    }
-}
-
 @media screen and (max-width: 450px) 
 {
     #profile p
@@ -183,6 +165,7 @@ h1
 
     .portfolio
     {
+        display: block;
         margin: 0.5rem 0px;
         max-width: 560px;
         min-width: 304px;
